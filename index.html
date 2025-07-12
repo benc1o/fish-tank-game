@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Fish Tank Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login-screen">
+    <h1>Name Your Tank</h1>
+    <input type="text" id="tank-name" placeholder="Enter Tank Name" />
+    <button onclick="startGame()">Start</button>
+  </div>
+  <div id="game-screen" style="display:none;">
+    <canvas id="tank-canvas"></canvas>
+    <audio id="bubble-sound" src="assets/bubble.mp3" autoplay loop></audio>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
